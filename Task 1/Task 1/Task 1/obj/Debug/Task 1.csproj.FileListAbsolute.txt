@@ -1,0 +1,5 @@
+C:\Users\Valeryia_Sholamava\Desktop\Task 1\Task 1\bin\Debug\Task 1.exe.config
+C:\Users\Valeryia_Sholamava\Desktop\Task 1\Task 1\bin\Debug\Task 1.exe
+C:\Users\Valeryia_Sholamava\Desktop\Task 1\Task 1\bin\Debug\Task 1.pdb
+C:\Users\Valeryia_Sholamava\Desktop\Task 1\Task 1\obj\Debug\Task 1.exe
+C:\Users\Valeryia_Sholamava\Desktop\Task 1\Task 1\obj\Debug\Task 1.pdb
