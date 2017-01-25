@@ -10,7 +10,6 @@ namespace Task_1
     {
         public int getSumOfNumerals()
         {
-
             int n = 200;
 
             Fibonacci f = new Fibonacci();
@@ -29,11 +28,13 @@ namespace Task_1
 
                     char[] charNumType = new char[size_strNumType];
                     charNumType[size_strNumType] = Convert.ToChar(strNumType);
+
                     for (int k = 0; i < size_strNumType; k++)
                     {
                         sumOfNumerals = (int)charNumType[k];
                         sumOfNumerals += sumOfNumerals;
                     }
+
                     if (numbers[i] % sumOfNumerals == 0)
                     {
                         countOfNumbers++;
@@ -42,8 +43,10 @@ namespace Task_1
                 }
             }
 
-            return countOfNumbers;
+            Console.WriteLine("---Count of numbers divided by sum of numerals---");
+            Console.WriteLine(Convert.ToString(countOfNumbers));
 
+            return countOfNumbers;
         }
     }
 }

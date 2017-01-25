@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Average count of nulls in  numbers.cs" />
+    <Compile Include="Choose  a number condition 6.cs" />
     <Compile Include="Descending_Sort_By_Second_Numeral.cs" />
+    <Compile Include="Main Class.cs" />
     <Compile Include="Number With Max Square of Numerals.cs" />
     <Compile Include="Sqrt_Numbers_Contain_2.cs" />
     <Compile Include="Divide_By_5.cs" />

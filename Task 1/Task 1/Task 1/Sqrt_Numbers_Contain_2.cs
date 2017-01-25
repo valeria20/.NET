@@ -25,6 +25,9 @@ namespace Task_1
                     sqrt_values.Add(sqrt_value);
                 }
             }
+
+            Console.WriteLine("---Sqrt values of numbers contain numeral 2---");
+            Console.WriteLine(Convert.ToString(sqrt_values));
             return sqrt_values;
         }
     }

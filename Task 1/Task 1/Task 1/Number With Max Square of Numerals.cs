@@ -15,10 +15,10 @@ namespace Task_1
             Fibonacci f = new Fibonacci();
             ulong[] numbers = new ulong[n + 1];
             numbers = f.getFibonacciNumbers(n);
-            for (int i = 0; i < n-1; i++)
 
+            for (int i = 0; i < n - 1; i++)
             {
-                for (int j = i+1; j < n-1; j++)
+                for (int j = i + 1; j < n - 1; j++)
                 {
                     double sumOfSquareRight = 0;
                     double sumOfSquareLeft = 0;
@@ -28,12 +28,11 @@ namespace Task_1
                     int size = strTypeOfNumberLeft.Length;
                     char[] charTypeOfNumberLeft = new char[size];
                     charTypeOfNumberLeft[size] = Convert.ToChar(numbers[i]);
+
                     for (int k = 0; k < size; k++)
                     {
-                        
                         sumOfSquareLeft += Math.Pow(Convert.ToDouble(charTypeOfNumberLeft[k]),
                                                     Convert.ToDouble(charTypeOfNumberLeft[k]));
-
                     }
 
                     string strTypeOfNumberRight = Convert.ToString(numbers[j]);
@@ -43,20 +42,19 @@ namespace Task_1
 
                     for (int c = 0; c < _size; c++)
                     {
-                        
                         sumOfSquareRight += Math.Pow(Convert.ToDouble(charTypeOfNumberRight[c]),
                                                      Convert.ToDouble(charTypeOfNumberRight[c]));
                     }
+
                     if (sumOfSquareLeft > sumOfSquareRight)
                     {
                         temp = numbers[i];
                         numbers[i] = numbers[j];
                         numbers[j] = temp;
-
                     }
-                                       
                 }
             }
+
             Console.Write("---Number with max sum of square numerals---");
             Console.Write(numbers[0]);
         }

@@ -23,6 +23,13 @@ namespace Task_1
                 fib_numbers[i] = fib_numbers[i - 1] + fib_numbers[i - 2];
             }
 
+            Console.WriteLine("---Fibonacci serial---");
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(fib_numbers[i]);
+            }
+
             return fib_numbers;
         }
     }

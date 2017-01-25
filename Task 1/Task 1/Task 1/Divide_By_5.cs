@@ -16,6 +16,7 @@ namespace Task_1
             Fibonacci f = new Fibonacci();
             ulong[] numbers = new ulong[n + 1];
             numbers = f.getFibonacciNumbers(n);
+
             for (int i = 0; i < n; i++)
             {
                 if (numbers[i] % 5 == 0)
@@ -23,6 +24,9 @@ namespace Task_1
                     count++;
                 }
             }
+
+            Console.WriteLine("---Number of counts divided by 5---");
+            Console.WriteLine(count);
             return count;
         }
     }

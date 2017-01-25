@@ -16,6 +16,7 @@ namespace Task_1
             Fibonacci f = new Fibonacci();
             ulong[] numbers = new ulong[n + 1];
             numbers = f.getFibonacciNumbers(n);
+
             for (int i = 0; i < n; i++)
             {
                 for (float k = 2; k < Math.Sqrt((float)numbers[i]); k++)
@@ -24,11 +25,12 @@ namespace Task_1
                     {
                         count++;
                     }
-
                 }
             }
+
+            Console.WriteLine("---Number of simple numbers---");
+            Console.WriteLine(Convert.ToString(count));
             return count;
         }
-
     }
 }
