@@ -8,7 +8,7 @@ namespace Task_1
 {
     class Divide_by_5 : Fibonacci
     {
-        public int divideByFive()
+        public void divideByFive()
         {
             int count = 0;
             int n = 200;
@@ -27,7 +27,7 @@ namespace Task_1
 
             Console.WriteLine("---Number of counts divided by 5---");
             Console.WriteLine(count);
-            return count;
+            
         }
     }
 }

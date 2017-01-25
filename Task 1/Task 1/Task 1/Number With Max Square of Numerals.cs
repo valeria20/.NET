@@ -15,48 +15,35 @@ namespace Task_1
             Fibonacci f = new Fibonacci();
             ulong[] numbers = new ulong[n + 1];
             numbers = f.getFibonacciNumbers(n);
-
-            for (int i = 0; i < n - 1; i++)
+            double sumOfSquare = 0;
+            double[] arrayOfSquares = new double[n];
+            for (int i = 0; i < n; i++)
             {
-                for (int j = i + 1; j < n - 1; j++)
+                char[] charTypeOfNumber = numbers[i].ToString().ToCharArray();
+                
+                foreach (char numeral in charTypeOfNumber)
                 {
-                    double sumOfSquareRight = 0;
-                    double sumOfSquareLeft = 0;
-                    ulong temp;
+                    double Dnumeral = (double)numeral;
+                    sumOfSquare += Math.Pow(Dnumeral, Dnumeral);      
+                }
+                arrayOfSquares[i] = sumOfSquare;
+            }
 
-                    string strTypeOfNumberLeft = Convert.ToString(numbers[i]);
-                    int size = strTypeOfNumberLeft.Length;
-                    char[] charTypeOfNumberLeft = new char[size];
-                    charTypeOfNumberLeft[size] = Convert.ToChar(numbers[i]);
-
-                    for (int k = 0; k < size; k++)
-                    {
-                        sumOfSquareLeft += Math.Pow(Convert.ToDouble(charTypeOfNumberLeft[k]),
-                                                    Convert.ToDouble(charTypeOfNumberLeft[k]));
-                    }
-
-                    string strTypeOfNumberRight = Convert.ToString(numbers[j]);
-                    int _size = strTypeOfNumberRight.Length;
-                    char[] charTypeOfNumberRight = new char[size];
-                    charTypeOfNumberRight[_size] = Convert.ToChar(numbers[j]);
-
-                    for (int c = 0; c < _size; c++)
-                    {
-                        sumOfSquareRight += Math.Pow(Convert.ToDouble(charTypeOfNumberRight[c]),
-                                                     Convert.ToDouble(charTypeOfNumberRight[c]));
-                    }
-
-                    if (sumOfSquareLeft > sumOfSquareRight)
-                    {
-                        temp = numbers[i];
-                        numbers[i] = numbers[j];
-                        numbers[j] = temp;
-                    }
+            double maxElement = arrayOfSquares[0];
+            int indexOfMaxElement = 0;
+            for (int k = 0; k < n; k++)
+            {
+                if (arrayOfSquares[k] > maxElement)
+                {
+                    maxElement = arrayOfSquares[k];
+                    indexOfMaxElement = k;
                 }
             }
 
-            Console.Write("---Number with max sum of square numerals---");
-            Console.Write(numbers[0]);
+            ulong numberWithMaxSquareOfNum = numbers[indexOfMaxElement];
+            Console.WriteLine("---Number with max square of numerals---");
+            Console.WriteLine(numberWithMaxSquareOfNum);      
         }
     }
 }
+

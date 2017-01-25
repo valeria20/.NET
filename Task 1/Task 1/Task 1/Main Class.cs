@@ -11,6 +11,9 @@ namespace Task_1
     {
         public static void Main(string[] args)
         {
+            Sqrt_Of_Numbers_Contain_2 obj8 = new Sqrt_Of_Numbers_Contain_2();
+            obj8.get_sqrt_of_numbers_contain_2();
+
             Average_count_of_nulls_in__numbers obj1 = new Average_count_of_nulls_in__numbers();
             obj1.average_Count_Of_Nulls_in_Numbers();
 
@@ -31,9 +34,7 @@ namespace Task_1
 
             Simple_Numbers obj7 = new Simple_Numbers();
             obj7.countOfSimpleNumbers();
-
-            Sqrt_Of_Numbers_Contain_2 obj8 = new Sqrt_Of_Numbers_Contain_2();
-            obj8.get_sqrt_of_numbers_contain_2();
+ 
         }
     }
 }

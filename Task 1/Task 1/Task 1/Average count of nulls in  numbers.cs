@@ -8,7 +8,7 @@ namespace Task_1
 {
     class Average_count_of_nulls_in__numbers : Fibonacci
     {
-        public double average_Count_Of_Nulls_in_Numbers()
+        public void average_Count_Of_Nulls_in_Numbers()
         {
             double averageCountOfNulls = 0;
             int n = 200;
@@ -21,21 +21,21 @@ namespace Task_1
             for (int i = 0; i < n; i++)
             {
                 string strTypeOfNumber = Convert.ToString(numbers[i]);
-                foreach (char nulls in strTypeOfNumber)
+
+                foreach (var nulls in strTypeOfNumber)
                 {
                     if (nulls == '0')
                     {
                         counterOfNulls++;
                     }
                 }
+              
                 sumOfNulls += counterOfNulls;
             }
 
-            averageCountOfNulls = sumOfNulls / n;
+            averageCountOfNulls = sumOfNulls/n ;
             Console.WriteLine("---Average count of nulls in numbers---");
-            Console.WriteLine(averageCountOfNulls);
-
-            return averageCountOfNulls;
+            Console.WriteLine(averageCountOfNulls); 
         }
     }
 }

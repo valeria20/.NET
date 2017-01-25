@@ -10,13 +10,12 @@ namespace Task_1
     {
         public void searching_Number_Condition_6()
         {
-            List<string> two_last_numerals = new List<string>();
-
+            //List<string> two_last_numerals = new List<string>();
+            Console.WriteLine("---List of two last numbers---");
             int n = 200;
             Fibonacci f = new Fibonacci();
             ulong[] numbers = new ulong[n + 1];
             numbers = f.getFibonacciNumbers(n);
-
             for (int i = 0; i < n; i++)
             {
                 if (numbers[i] % 3 == 0)
@@ -51,14 +50,12 @@ namespace Task_1
                     {
                         string strTypeNumber = Convert.ToString(numbers[trueIndex]);
                         /*getting two last numerals*/
-                        string twoLastNumerals = strTypeNumber.Substring(0, strTypeNumber.Length - 2);
-                        two_last_numerals.Add(twoLastNumerals);
+                       string twoLastNumerals = strTypeNumber.Substring(0, strTypeNumber.Length - 2);
+                        //two_last_numerals.Add(twoLastNumerals);
+                        Console.WriteLine(twoLastNumerals);
                     }
                 }
-            }
-
-            Console.WriteLine("---List of two last numbers---");
-            Console.WriteLine(two_last_numerals);
+            }    
         }
     }
 }

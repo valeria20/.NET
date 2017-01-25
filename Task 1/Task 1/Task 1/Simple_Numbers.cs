@@ -8,7 +8,7 @@ namespace Task_1
 {
     class Simple_Numbers : Fibonacci
     {
-        public int countOfSimpleNumbers()
+        public void countOfSimpleNumbers()
         {
             int count = 0;
             int n = 200;
@@ -28,9 +28,8 @@ namespace Task_1
                 }
             }
 
-            Console.WriteLine("---Number of simple numbers---");
-            Console.WriteLine(Convert.ToString(count));
-            return count;
+            Console.WriteLine("---Number of simple elements---");
+            Console.WriteLine(count);
         }
     }
 }

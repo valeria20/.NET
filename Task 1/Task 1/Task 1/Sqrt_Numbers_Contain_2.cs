@@ -8,28 +8,35 @@ namespace Task_1
 {
     class Sqrt_Of_Numbers_Contain_2 : Fibonacci
     {
-        public List<int> get_sqrt_of_numbers_contain_2()
+        public void get_sqrt_of_numbers_contain_2()
         {
-            List<int> sqrt_values = new List<int>();
+            Console.WriteLine("---Sqrt of elements contain numeral 2---");
             int n = 200;
 
             Fibonacci f = new Fibonacci();
             ulong[] numbers = new ulong[n + 1];
             numbers = f.getFibonacciNumbers(n);
+            double[] sqrt_values = new double[n];
+
             for (int i = 0; i < n; i++)
             {
-                string strNumType = Convert.ToString(numbers[i]);
-                if (strNumType.Contains("2"))
+                int index = 0;
+                char[] charTypeOfNumber = numbers[i].ToString().ToCharArray();
+                foreach (char numeral in charTypeOfNumber)
                 {
-                    int sqrt_value = (int)Math.Sqrt(numbers[i]);
-                    sqrt_values.Add(sqrt_value);
+                    if (numeral == '2')
+                    {
+                        index = i;
+                    }
                 }
-            }
 
-            Console.WriteLine("---Sqrt values of numbers contain numeral 2---");
-            Console.WriteLine(Convert.ToString(sqrt_values));
-            return sqrt_values;
+                double sqrt_value = Math.Sqrt(numbers[index]);
+                sqrt_values[i] = sqrt_value;
+            }
+            for (int k = 0; k < n; k++)
+            {
+                Console.WriteLine((int)sqrt_values[k]);
+            }
         }
     }
-
 }
