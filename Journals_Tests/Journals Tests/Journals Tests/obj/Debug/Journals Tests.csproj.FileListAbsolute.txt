@@ -26,3 +26,12 @@ C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests
 C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\WebDriver.dll
 C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\WebDriver.xml
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\mock-assembly.exe
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\nunit.framework.dll
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\nunit.framework.tests.dll
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\nunit.testdata.dll
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\nunitlite-runner.exe
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\nunitlite.dll
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\nunitlite.tests.exe
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\slow-nunit-tests.dll
+C:\Users\Valeryia_Sholamava\Desktop\Journals_Tests\Journals Tests\Journals Tests\bin\Debug\nunit.framework.xml
