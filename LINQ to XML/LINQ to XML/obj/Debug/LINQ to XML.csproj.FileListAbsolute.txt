@@ -1,0 +1,6 @@
+D:\LINQ to XML\LINQ to XML\bin\Debug\LINQ to XML.exe.config
+D:\LINQ to XML\LINQ to XML\bin\Debug\LINQ to XML.exe
+D:\LINQ to XML\LINQ to XML\bin\Debug\LINQ to XML.pdb
+D:\LINQ to XML\LINQ to XML\obj\Debug\LINQ to XML.exe
+D:\LINQ to XML\LINQ to XML\obj\Debug\LINQ to XML.pdb
+D:\LINQ to XML\LINQ to XML\obj\Debug\LINQ to XML.csprojResolveAssemblyReference.cache
