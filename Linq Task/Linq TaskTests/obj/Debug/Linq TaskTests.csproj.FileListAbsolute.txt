@@ -1,0 +1,8 @@
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq TaskTests\obj\Debug\Linq TaskTests.csprojResolveAssemblyReference.cache
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq TaskTests\bin\Debug\Linq TaskTests.dll
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq TaskTests\bin\Debug\Linq TaskTests.pdb
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq TaskTests\bin\Debug\Linq Task.dll
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq TaskTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq TaskTests\bin\Debug\Linq Task.pdb
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq TaskTests\obj\Debug\Linq TaskTests.dll
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq TaskTests\obj\Debug\Linq TaskTests.pdb

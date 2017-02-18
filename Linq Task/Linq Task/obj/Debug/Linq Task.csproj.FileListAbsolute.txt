@@ -1,0 +1,5 @@
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq Task\obj\Debug\Linq Task.csprojResolveAssemblyReference.cache
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq Task\bin\Debug\Linq Task.dll
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq Task\bin\Debug\Linq Task.pdb
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq Task\obj\Debug\Linq Task.dll
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Linq Task\Linq Task\obj\Debug\Linq Task.pdb
