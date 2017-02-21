@@ -1,0 +1,6 @@
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Test Serialization\Test Serialization\bin\Debug\Test Serialization.exe.config
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Test Serialization\Test Serialization\bin\Debug\Test Serialization.exe
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Test Serialization\Test Serialization\bin\Debug\Test Serialization.pdb
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Test Serialization\Test Serialization\obj\Debug\Test Serialization.exe
+c:\users\valeryia_sholamava\documents\visual studio 2015\Projects\Test Serialization\Test Serialization\obj\Debug\Test Serialization.pdb
+C:\Users\Valeryia_Sholamava\Documents\Visual Studio 2015\Projects\Test Serialization\Test Serialization\obj\Debug\Test Serialization.csprojResolveAssemblyReference.cache
